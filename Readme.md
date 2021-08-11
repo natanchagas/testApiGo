@@ -1,7 +1,17 @@
-Test Command: 
+# Go Test API with K6
 
+The idea with this repository was to test K6 on Github Actions. Simple as this.
+
+## Commands: 
+
+Go Test Command:
 ```
-go test -v main.go token.go user.go main_test.go
+go test -v ./...
+```
+
+Go Build Command:
+```
+go build -v ./...
 ```
 
 K6 Load Test Command:
